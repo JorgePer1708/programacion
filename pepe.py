@@ -1,6 +1,6 @@
 import tkinter as tk
 
-def main () :
+def main() :
   global ventana
   #Crear ventana
   ventana = tk.Tk()
@@ -8,3 +8,5 @@ def main () :
   vetana.title("Menú Centrado")
   vetana.mainloop()
   
+if __name__=="__main__":
+    main()
